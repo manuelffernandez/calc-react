@@ -1,4 +1,5 @@
 import Header from '../Header/Header';
+import Footer from '../Footer/Footer';
 
 const BaseLayout = props => {
    const { children } = props;
@@ -7,6 +8,7 @@ const BaseLayout = props => {
       <>
          <Header />
          {children}
+         <Footer />
       </>
    );
 };
