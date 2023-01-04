@@ -1,2 +1,6 @@
 @import url('./styles/normalize.css');
 @import url('./styles/global.css');
+
+#root {
+  height: 100%;
+}
